@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <RelativeLayout
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:gravity="start|left|center"
+                android:background="@drawable/baseline_check_circle_outline_24">
+            </ImageView>
+            <TextView
+                android:id="@+id/from"
+                android:textColor="@color/pink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="From"
+                android:layout_toRightOf="@+id/foto"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/nama_mahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/check"
+            android:paddingLeft="16dp"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingRight="16dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RelativeLayout
+            android:id="@+id/informasi"
+            android:layout_below="@+id/nama_mahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:id="@+id/gambar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:fontFamily="@font/poppinsregular"
+                android:background="@drawable/baseline_rectangle_24"
+                android:padding="8dp"
+                android:layout_marginRight="8dp">
+            </TextView>
+            <TextView
+                android:id="@+id/gambar2"
+                android:layout_toRightOf="@+id/gambar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:padding="8dp"
+                android:fontFamily="@font/poppinsregular"
+                android:background="@drawable/baseline_rectangle_24">
+            </TextView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sumber"
+            android:layout_below="@+id/informasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="12dp"
+            android:fontFamily="@font/poppinsregular">
+        </TextView>
+        <TextView
+            android:id="@+id/nim_mahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_below="@id/sumber"
+            android:text="NIM Mahasiswa"
+            android:fontFamily="@font/poppinsmedium"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RelativeLayout>
+</ScrollView>
+

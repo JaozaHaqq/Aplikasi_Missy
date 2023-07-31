@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/suasanahati"
+    tools:context=".BeratBadanActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/berat_badan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="128dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="2dp"
+        android:text="Berat Badan"
+        android:fontFamily="@font/poppinsbold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_mood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Tuliskan Berat Badan Anda Disini"
+        android:inputType="number"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="16dp"
+        android:layout_marginBottom="500dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="0dp"
+        android:background="@color/pink"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingBottom="2dp"
+        android:text="Simpan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+</LinearLayout>

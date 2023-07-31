@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "157798016699",
+    "project_id": "missy-d4b76",
+    "storage_bucket": "missy-d4b76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157798016699:android:b4b6fae67f94fd3bf6eb9e",
+        "android_client_info": {
+          "package_name": "com.example.missy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157798016699-c9hisvdbf95i9smubdv0h2cn81nhg2v8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.missy",
+            "certificate_hash": "c9901c09f8242f945d129e9ebc55f1b89a956977"
+          }
+        },
+        {
+          "client_id": "157798016699-nbl72a2hdl5rl36i7k970o3i6q7ear43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi4Jr_iryxllVGHU1gAotoNa_vcOvrssE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157798016699-nbl72a2hdl5rl36i7k970o3i6q7ear43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
