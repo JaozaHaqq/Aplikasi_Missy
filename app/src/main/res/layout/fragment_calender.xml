@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/bg3"
+    android:background="@drawable/mycal"
     tools:context=".Fragment.CalenderFragment"
     android:orientation="vertical"
     android:padding="20dp">
@@ -38,7 +38,7 @@
         android:drawablePadding="10dp"
         android:inputType="text"
         android:drawableLeft="@drawable/ic_smile"
-        android:text="Suasana Hati"
+        android:hint="Suasana Hati"
         android:textSize="14dp"
         android:fontFamily="@font/poppinsregular"
         android:layout_marginBottom="20dp"/>
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:drawableLeft="@drawable/ic_timbangan"
-        android:text="  Berat Badan"
+        android:hint="  Berat Badan"
         android:textSize="14dp"
         android:fontFamily="@font/poppinsregular"
         android:layout_marginBottom="30dp"/>
